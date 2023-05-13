@@ -8,23 +8,6 @@ PASOS DEL LABORATORIO – TALLER
 •	Una vez que el estudiante termine su funcionalidad, debe hacer el merge de su rama con la rama principal "main".
 •	Los otros estudiantes deben actualizar su copia local del repositorio antes de comenzar a trabajar en su propia funcionalidad.
 •	Si hay conflictos al hacer el merge, los estudiantes deben resolverlos en equipo antes de proceder.
-•	Aquí les proporciono un ejemplo de código HTML simple para el archivo index.html en la rama principal "main":
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Mi proyecto GitHub</title>
-  </head>
-  <body>
-    <h1>Bienvenido a mi proyecto GitHub</h1>
-    <p>Este es un proyecto de ejemplo para el laboratorio de GitHub en la clase de Calidad de Software.</p>
-    <ul>
-      <li><a href="funcionalidad1.html">Funcionalidad 1</a></li>
-      <li><a href="funcionalidad2.html">Funcionalidad 2</a></li>
-      <li><a href="funcionalidad3.html">Funcionalidad 3</a></li>
-    </ul>
-  </body>
-</html>
 
 •	Y aquí te proporciono el desarrollo de las funcionalidades que cada estudiante debe trabajar en su propia rama:
 
