@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-widthinitial-scale=1.0">
+        <title>Formulario de contacto</title>
+        <style>
+
+            body {
+                font-family: 'Helvetica', 'Arial', sans-serif;
+            }
+            
+            form {
+                display: flex;
+                flex-direction: column;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+
+            label {
+                margin-bottom: 10px;
+            }
+
+            input[type="text"],
+            input[type="email"],
+            textarea {
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+                margin-bottom: 20px;
+                font-size: 16px;
+            }
+
+            input[type="submit"] {
+                background-color: #4CAF50;
+                color: white;
+                padding: 12px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+            }
+
+            input[type="submit"]:hover {
+                background-color: #45a049;
+            }
+
+            input[type=submit]:active {
+                background-color: #3e8e41;
+            }
+
+            .optional-label {
+                font-style: italic;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Formulario de Contacto</h1>
+
+        <form>
+
+            <label for="name">Nombre</label>
+            <input type="text" id="name_box" name="name" required><br>
+
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email_box" name="email" required><br>
+
+            <label for="cellphone">Teléfono*</label>
+            <input type="text" id="cellphone_box" name="cellphone"><br>
+
+            <label for="message">Mensaje</label>
+            <textarea id="message_box" name="message" required></textarea><br>
+
+            <input type="submit" id="Send" value="Enviar">
+
+        </form>
+
+        <script>
+
+            function Mensaje() {
+                alert("Tu formulario ha sido enviado con éxito.");
+            }
+
+            const botonEnviar = document.getElementById("Send");
+
+            botonEnviar.addEventListener("click", function() { Mensaje(); });       
+
+        </script>
+
+    </body>
+</html>
+
