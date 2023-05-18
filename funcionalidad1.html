@@ -62,30 +62,30 @@
 
     <body>
 
-        <h1>Formulario de Contacto</h1>
+        <h1>Contact</h1>
 
         <form>
 
-            <label for="name">Nombre</label>
+            <label for="name">Name</label>
             <input type="text" id="name_box" name="name" required><br>
 
-            <label for="email">Correo electrónico</label>
+            <label for="email">Email</label>
             <input type="email" id="email_box" name="email" required><br>
 
-            <label for="cellphone">Teléfono*</label>
+            <label for="cellphone">Number*</label>
             <input type="text" id="cellphone_box" name="cellphone"><br>
 
-            <label for="message">Mensaje</label>
+            <label for="message">Message</label>
             <textarea id="message_box" name="message" required></textarea><br>
 
-            <input type="submit" id="Send" value="Enviar">
+            <input type="submit" id="Send" value="Submit">
 
         </form>
 
         <script>
 
             function Mensaje() {
-                alert("Tu formulario ha sido enviado con éxito.");
+                alert("Your form has been successfully submitted.");
             }
 
             const botonEnviar = document.getElementById("Send");
