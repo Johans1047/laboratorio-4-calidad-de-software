@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Digital</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="pstyles.css">
+</head>
+<body>
+    <header>
+            <div class="heading-wrapper">
+                <h3>Portafolio Digital</h3>
+            </div>
+            <hr>
+    </header>
+    <main>
+        <div class="form-container">
+            <form>
+                <label for="student">Escoja un estudiante</label>
+                <select name="student" id="student" onchange="sendTo()">
+                    <option value="" selected disabled style="display:none;"></option>
+                    <option value="diego.html">Diego Chan</option>
+                    <option value="jonathan.html">Jonathan Salazar</option>
+                    <option value="amid.html">Amid Ramírez</option>
+                </select>
+            </form>
+        </div>
+
+    </main>
+    <!-- JavaScript -->
+    <script src="portafolio-index.js"></script>
+</body>
+</html>
