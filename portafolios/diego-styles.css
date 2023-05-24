@@ -1,0 +1,247 @@
+/* Reset de estilos para mayor consistencia */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("img//marble.jpg");
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: justify;
+  }
+
+  .container br{
+    line-height: 4px;
+  }
+  
+  
+  /* Estilos de encabezado */
+  header {
+    width: 100vw;
+    position: fixed;
+    background-color: #333;
+    color: #333;
+    padding: 13px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 40px auto 40px;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  /* Estilos del héroe */
+  #hero {
+    background-image: url("img//table3.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .hero-content h1 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 18px;
+    color: #ffffff;
+  }
+  
+  /* Estilos de las secciones */
+  #about {
+    /*background-image: url("img//marble.jpg");*/
+    background-size: cover;
+    background-position: center;
+    height: 850px;
+  }
+
+  section {
+    padding: 30px 0;
+  }
+  
+  section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+
+  /* Estilos de las habilidades */
+  #skills {
+    /*background-image: url('img/papel.jpg');*/
+    background-size: cover;
+    background-position: top;
+    height: 670px;
+    
+  }
+  
+  .skills-container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 5px;
+    text-align: justify;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .list-container {
+    font-size: 18px;
+    padding: 20px auto;
+    margin-left: 50px;
+    line-height: 1.6;
+  }
+  
+  /* Estilos de los proyectos */
+  #projects {
+    /*background-image: url('img/papel.jpg');*/
+    background-size: cover;
+    background-position: center;
+    height: 680px;
+  }
+
+  .project {
+    margin-bottom: 30px;
+  }
+  
+  .project h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .enlaces {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    width: fit-content;
+  }
+  
+  .enlaces:hover {
+    background-color: #555;
+  }
+
+  /* Estilos de contacto */
+  #contact {
+    /*background-image: url('img/papel.jpg');*/
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+  }
+
+  .container ul li {
+    list-style-type: none;
+    margin-bottom: 15px; 
+  }
+
+  .handles-list{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .handles{
+    margin: 0 20px 0 20px;
+  }
+  
+  .handles a{
+    padding: 4px;
+    color: white;
+  }
+
+  #mail{
+    padding: 4px;
+    background-color: #C13929;
+    border: 2px solid #C13929;
+    border-radius: 4px;
+  }
+
+  #mail:hover{
+    background-color: white;
+    color: #C13929;
+  }
+
+  #whatsapp{
+    padding: 4px;
+    background-color: #3EE95E;
+    border: 2px solid #3EE95E;
+    border-radius: 4px;
+  }
+
+  #whatsapp:hover{
+    background-color: white;
+    color: #3EE95E;
+  }
+
+  #linkedin{
+    padding: 4px;
+    background-color: #0190CC;
+    border: 2px solid #0190CC;
+    border-radius: 4px;
+  }
+
+  #linkedin:hover{
+    background-color: white;
+    color: #0190CC;
+  }
+
+  #github{
+    padding: 4px;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 4px;
+  }
+
+  #github:hover{
+    background-color: white;
+    color: black;
+  }
+
+  /* Estilos del pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  
+  
